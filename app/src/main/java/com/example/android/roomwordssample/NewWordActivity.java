@@ -40,6 +40,7 @@ public class NewWordActivity extends AppCompatActivity {
         setContentView(R.layout.activity_new_word);
         mEditWordView = findViewById(R.id.edit_word);
 
+        setTitle("Add word");
         final Button button = findViewById(R.id.button_save);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

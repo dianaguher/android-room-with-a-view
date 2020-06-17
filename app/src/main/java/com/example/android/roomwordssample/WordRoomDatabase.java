@@ -65,6 +65,7 @@ public abstract class WordRoomDatabase extends RoomDatabase {
 
         @Override
         public void onOpen(@NonNull SupportSQLiteDatabase db) {
+          //  super.onCreate(db);
             super.onOpen(db);
             // If you want to keep the data through app restarts,
             // comment out the following line.
@@ -90,10 +91,11 @@ public abstract class WordRoomDatabase extends RoomDatabase {
             // Not needed if you only populate on creation.
             mDao.deleteAll();
 
-            Word word = new Word("Hello");
+           Word word = new Word("Hello");
             mDao.insert(word);
             word = new Word("World");
             mDao.insert(word);
+
             return null;
         }
     }

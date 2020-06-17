@@ -19,6 +19,7 @@ limitations under the License. -->
   to make the code much more readable. -->
 
 <androidx.constraintlayout.widget.ConstraintLayout
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -36,3 +37,5 @@ limitations under the License. -->
         tools:listitem="@layout/recyclerview_item"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

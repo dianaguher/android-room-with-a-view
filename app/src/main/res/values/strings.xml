@@ -17,5 +17,12 @@ limitations under the License. -->
     <string name="action_settings">Settings</string>
     <string name="hint_word">Word…</string>
     <string name="button_save">Save</string>
+    <string name="delete_all_menu">Delete all words</string>
+    <string name="delete_all_words">All words deleted.</string>
     <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="word_added">Added.</string>
+    <string name="word_updated">Updated.</string>
+    <string name="word_deleted">Deleted.</string>
+    <string name="not_updated">Word not saved because it did not change.</string>
+    <string name="can_not_update">Word can not be updated.</string>
 </resources>
